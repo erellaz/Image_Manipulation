@@ -2,7 +2,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS=None #for super large image, avoid decompression bomb error
 import os
 
-path =r"D:\Famille\Richard\\"
+path =r"D:\xxxxxxxx\\"
 dirs = os.listdir( path )
 factor=0.15
 fs=str(int(factor*100))
