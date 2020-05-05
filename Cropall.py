@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 filepath = "G:\Jpeg"
-outpath="G:\cropped"
+outpath="G:\crop"
 cropwin=(1000,350,3050,2250)
 rot=5.0 #rotation angle clockwise
 #______________________________________________________________________________
