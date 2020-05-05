@@ -5,7 +5,7 @@ Image.MAX_IMAGE_PIXELS=None #for super large image, avoid decompression bomb err
 
 
 pdf = FPDF()
-path =r"D:\zzzz\xxx\\"
+path =r"D:\zzzzz\xxx\\"
 dirs = os.listdir( path )
 #letter is 216mm x 279mm
 paperwidth=210
