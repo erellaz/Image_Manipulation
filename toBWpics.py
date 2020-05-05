@@ -1,7 +1,7 @@
 import cv2
 import os
 
-path =r"D:\Famille\Richard_resize\\"
+path =r"D:\xxx\"
 dirs = os.listdir( path )
 
 def toBW():
