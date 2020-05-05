@@ -5,7 +5,7 @@ Image.MAX_IMAGE_PIXELS=None #for super large image, avoid decompression bomb err
 
 
 pdf = FPDF()
-path =r"D:\Famille\Richard_resize\\"
+path =r"D:\zzzz\xxx\\"
 dirs = os.listdir( path )
 #letter is 216mm x 279mm
 paperwidth=210
@@ -40,4 +40,4 @@ for item in dirs:
             pdf.set_y(265)
             pdf.write(10,legend)
 
-pdf.output(r"D:\Richard.pdf", "F")
+pdf.output(r"D:\hhhhhh.pdf", "F")
